@@ -1,18 +1,28 @@
 # Walmart Sales Data Analysis
 
-## About
+This project analyzes Walmart sales to identify top-performing branches and products, sales trends, and customer behavior.  
+**Tech stack:** SQL, CSV data, (add: Python, Pandas, Power BI)  
+**Dataset:** From the Kaggle Walmart Sales Forecasting Competition.
 
-This project aims to explore the Walmart Sales data to understand top performing branches and products, sales trend of of different products, customer behaviour. The aims is to study how sales strategies can be improved and optimized. The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting).
+## What I did in this fork
+- Cleaned and organized the repository structure.
+- Added clear README and run instructions.
+- (Optional) Added a Jupyter notebook replicating the SQL analysis in Python.
+- (Optional) Fixed filename typos and improved queries.
 
-"In this recruiting competition, job-seekers are provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and participants must project the sales for each department in each store. To add to the challenge, selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact." [source](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting)
+## How to run (SQL)
+1. Open `SQL_queries.sql` in your SQL client (e.g., MySQL/PostgreSQL—adjust syntax as needed).
+2. Import `WalmartSalesData.csv` into a table named `walmart_sales`.
+3. Execute queries to reproduce the analysis.
 
-## Purposes Of The Project
+## How to run (Python, optional)
+1. `pip install pandas matplotlib jupyter`
+2. Open `analysis.ipynb` and run all cells.
 
-The major aim of thie project is to gain insight into the sales data of Walmart to understand the different factors that affect sales of the different branches.
-
-## About Data
-
-The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting). This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
+## Credits
+Adapted from the original work by **[ORIGINAL AUTHOR]**.  
+Original repository: (link)
+License: (MIT/Apache/… or “No license provided at the time of forking”)
 
 | Column                  | Description                             | Data Type      |
 | :---------------------- | :-------------------------------------- | :------------- |
